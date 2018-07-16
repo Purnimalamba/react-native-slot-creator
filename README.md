@@ -1,0 +1,1 @@
+# react-native-slot-creator
