@@ -1,0 +1,28 @@
+{
+    "name": "react-native-slot-creator",
+    "version": "1.0.0",
+    "author": {
+        "name": "Purnima Lamba"
+    },
+    "description": "Slot creator for iOS and Android React-Native apps",
+    "homepage": "https://github.com/Purnimalamba/react-native-slot-creator.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Purnimalamba/react-native-slot-creator.git"
+    },
+    "keywords": [
+        "Time",
+        "slot",
+        "creator",
+        "react-native",
+        "ios",
+        "android"
+    ],
+    "main": "slotCreator.js",
+    "peerDependencies": {
+        "react-native": ">= 0.46"
+    },
+    "scripts": {
+        "test": "./node_modules/eslint/bin/eslint.js slotCreator.js"
+    }
+}
