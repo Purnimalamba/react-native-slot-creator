@@ -50,10 +50,10 @@ export default class App extends Component {
   }
 }
 
-
 ```
+### Parameters
 
-| Parameter  | Default  | Format | Description | Required |
+| Parameter  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
 | startTime | null | `24 Hrs` | Start time of your time interval  | `Yes` |
 | endTime | null | `24 Hrs` | End time of your time interval   | `Yes` |
@@ -61,4 +61,3 @@ export default class App extends Component {
 | breakStartTime | null | `24 Hrs` | Break start time | `optional` |
 | breakEndTime | null | `24 Hrs` |  Break start time | `optional` |
 | is12HoursFormat | false | `bool` | If you require the result in 12 Hrs format set this as true | `optional` |
-
