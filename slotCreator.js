@@ -111,6 +111,7 @@ function to12HrsFormat(slotArray) {
        }
         slotArrayFormatted.push(timeSlot)
     }
+    return slotArrayFormatted
 }
 module.exports = {
     slotCreator
