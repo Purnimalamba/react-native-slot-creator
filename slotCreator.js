@@ -81,7 +81,8 @@ function createSlot(startTime, endTime, slotDuration, breakStartTime, breakEndTi
             slotArray = initialSlotArray
         }
         if (is12HoursFormat && slotArray.length>0){
-            to12HrsFormat(slotArray)
+            let finalArray =  to12HrsFormat(slotArray)
+            return finalArray
         }else{
             return slotArray;
         }
